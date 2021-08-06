@@ -3,7 +3,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p $PORT"
+  },
+  "engines": {
+    "node": "14.17.2",
+    "npm": "7.20.1"
   },
   "dependencies": {
     "@material-tailwind/react": "0.3.4",
